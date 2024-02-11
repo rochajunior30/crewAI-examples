@@ -32,8 +32,9 @@ class CustomCrew:
         tasks = CustomTasks()
 
         # Define your custom agents and tasks here
-        custom_agent_1 = agents.agent_1_name()
-        custom_agent_2 = agents.agent_2_name()
+        custom_agent_1 = agents.agent_researcher()
+        custom_agent_2 = agents.agent_writer()
+        custom_agent_3 = agents.agent_chief_criative()
 
         # Custom tasks include agent name and variables as input
         custom_task_1 = tasks.task_1_name(
